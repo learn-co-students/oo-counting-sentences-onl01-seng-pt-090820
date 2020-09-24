@@ -3,7 +3,8 @@ require 'pry'
 class String
 
   def sentence?
-    
+     self[-1] == "."
+    # self.split.last[-1] == "."
   end
 
   def question?
